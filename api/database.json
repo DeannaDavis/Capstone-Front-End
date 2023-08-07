@@ -11,29 +11,22 @@
       "buy": "https://www.booksamillion.com/p/Harry-Potter-Sorcerers-Stone/J-K-Rowling/9780590353427?id=8908259425387",
       "comments": [
         {
+          "commentId": 2,
           "userId": 2,
           "username": "Brad Davis",
-          "text": "THIS BOOK IS AMAZING!!!!"
+          "text": "let not delte everything"
         },
         {
+          "commentId": 3,
           "userId": 2,
           "username": "Brad Davis",
-          "text": "WAIT\n"
+          "text": "OMG NO WAY"
         },
         {
-          "userId": 2,
-          "username": "Brad Davis",
-          "text": "losing my marbles"
-        },
-        {
-          "userId": 2,
-          "username": "Brad Davis",
-          "text": "there we go"
-        },
-        {
+          "commentId": 2,
           "userId": 1,
           "username": "Deanna Davis",
-          "text": "hey there friend"
+          "text": "IT WORKS OMG"
         }
       ]
     },
@@ -302,7 +295,7 @@
       "clubOwned": 2,
       "description": "I love books and traveling. I also want a golden doodle and a ragdoll cat in my future home in the mountains or on the lake!",
       "clubs": [],
-      "personalURL": ""
+      "personalURL": "https://linktr.ee/deanna_daviss"
     },
     {
       "id": 2,

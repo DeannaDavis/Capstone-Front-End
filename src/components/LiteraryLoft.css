@@ -331,3 +331,11 @@ body {
   margin-left: 625px;
   text-align: center;
 }
+
+.delete-comment-icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+

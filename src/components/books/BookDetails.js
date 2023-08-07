@@ -10,6 +10,7 @@ export const BookDetails = () => {
     const { bookId } = useParams();
     const navigate = useNavigate();
     const [loggedInUserId, setLoggedInUserId] = useState(null);
+    const [commentIdCounter, setCommentIdCounter] = useState(1);
 
 
     useEffect(() => {
@@ -53,6 +54,33 @@ export const BookDetails = () => {
         .then(() => navigate("/"));
     };
 
+    const handleDeleteComment = (commentId) => {
+        // Filter out the comment with the specified commentId
+        const updatedComments = comments.filter(comment => comment.commentId !== commentId);
+        setComments(updatedComments);
+
+        // Update the book's comments in the database
+        fetch(`http://localhost:8088/books/${book.id}`, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                comments: updatedComments,
+            }),
+        })
+        .then((res) => res.json())
+        .then((updatedBookData) => {
+            setBook({
+                ...updatedBookData,
+                club: book.club,
+            });
+        })
+        .catch((error) => {
+            console.error("Error deleting comment:", error);
+        });
+    };
+
     const handleSubmitComment = (e) => {
         e.preventDefault();
     
@@ -61,10 +89,13 @@ export const BookDetails = () => {
             .then((res) => res.json())
             .then((userData) => {
                 const commentData = {
+                    commentId: commentIdCounter,
                     userId: loggedInUserId,
                     username: userData.name, // Add the username to the comment data
                     text: newComment,
                 };
+
+                setCommentIdCounter(commentIdCounter + 1);
     
                 // Add the comment to the local state
                 setComments((prevComments) => [...prevComments, commentData]);
@@ -92,11 +123,7 @@ export const BookDetails = () => {
             .catch((error) => {
                 console.error("Error submitting comment:", error);
             });
-    };
-    
-    
-    
-    
+    }
 
 
     if (!book) {
@@ -158,8 +185,16 @@ export const BookDetails = () => {
                 ) : (
                     <ul className="comment-list">
                         {comments.map((comment) => (
-                            <li key={comment.id} className="comment-item">
+                            <li key={comment.commentId} className="comment-item">
                                 <strong>{comment.username}:</strong> {comment.text}
+                                {loggedInUserId === comment.userId && (
+                                    <img
+                                        src="/litter.png"
+                                        alt="Delete"
+                                        className="delete-comment-icon"
+                                        onClick={() => handleDeleteComment(comment.commentId)}
+                                    />
+                                )}
                             </li>
                         ))}
                     </ul>
