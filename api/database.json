@@ -35,10 +35,17 @@
       "buy": "https://www.booksamillion.com/p/Divergent/Veronica-Roth/9780062024022?id=8908259425387",
       "comments": [
         {
-          "commentId": 1,
+          "commentId": "d83aa5f3-76cd-491c-95c6-c8e7fdeee7dd",
           "userId": 1,
           "username": "Deanna Davis",
-          "text": "hopefully",
+          "text": "word it may be working",
+          "rating": 1
+        },
+        {
+          "commentId": "0a533ba9-a05a-4002-b36d-58837968a6c5",
+          "userId": 2,
+          "username": "Brad Davis",
+          "text": "it works...yipee",
           "rating": 1
         }
       ]

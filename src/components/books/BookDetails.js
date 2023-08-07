@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import '../LiteraryLoft.css';
+import { v4 as uuidv4 } from 'uuid';
+
 
 export const BookDetails = () => {
     const [book, setBook] = useState();
@@ -60,7 +62,6 @@ export const BookDetails = () => {
     const handleDeleteComment = (commentId) => {
         // Filter out the comment with the specified commentId
         const updatedComments = comments.filter(comment => comment.commentId !== commentId);
-        setComments(updatedComments);
     
         // Update the book's comments in the database
         fetch(`http://localhost:8088/books/${book.id}`, {
@@ -78,26 +79,29 @@ export const BookDetails = () => {
                 ...updatedBookData,
                 club: book.club,
             });
+            setComments(updatedComments); // Update local comments state
         })
         .catch((error) => {
             console.error("Error deleting comment:", error);
         });
     };
     
+    
 
     const handleSubmitComment = (e) => {
         e.preventDefault();
 
-    fetch(`http://localhost:8088/users/${loggedInUserId}`)
+        fetch(`http://localhost:8088/users/${loggedInUserId}`)
         .then((res) => res.json())
         .then((userData) => {
             const commentData = {
-                commentId: commentIdCounter,
+                commentId: uuidv4(), // Generate a unique commentId
                 userId: loggedInUserId,
                 username: userData.name,
                 text: newComment,
-                rating: newCommentRating, // Add the rating to the comment data
+                rating: newCommentRating, // Include the comment rating
             };
+
 
             setCommentIdCounter(commentIdCounter + 1);
 
@@ -125,9 +129,9 @@ export const BookDetails = () => {
                 comments: updatedBookData.comments,
             });
         })
-        .catch((error) => {
-            console.error("Error submitting comment:", error);
-        });
+    .catch((error) => {
+        console.error("Error submitting comment:", error);
+    });
 };
 
     
@@ -233,7 +237,7 @@ export const BookDetails = () => {
                             </label>
                         ))}
                     </div>
-                    <textarea
+                    <textarea className="comment-input"
                         placeholder="Leave a comment..."
                         value={newComment}
                         onChange={(e) => setNewComment(e.target.value)}
