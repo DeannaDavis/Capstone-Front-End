@@ -1,0 +1,127 @@
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#club-title-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.club-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: monospace;
+    font-weight: 200;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.book-name{
+    font-size: smaller;
+    font-weight: 530;
+    display: flex;
+    justify-content: center;
+
+}
+
+.welcome-genres{
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: xxx-large;
+    font-family: monospace;
+}
+
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: monospace;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.book-card-club{
+    cursor:auto;
+}
+
+#join-button{
+    width: 50px;
+    cursor: pointer;
+    font-family: monospace;
+    color: rgb(216, 200, 178);
+    border-color: rgb(216, 200, 178);
+    background-color:whitesmoke ;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 685px;
+}
+
+/* Add styles for the pop-up modal */
+.ReactModal__Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px; /* Adjust the maximum width to fit your content */
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #fff; */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+
+  .ReactModal__Content h2 {
+    font-family: monospace;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+  
+  .ReactModal__Content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: mono;
+  }
+  
+
+  .ReactModal__Content .club-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+
+  .ReactModal__Content button {
+    cursor: pointer;
+    padding: 8px 20px;
+    font-family: monospace;
+    font-size: 16px;
+    color: #e5dbd2;
+    background-color: rgb(255 255 255);
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ReactModal__Content button:hover {
+    color: rgb(255, 255, 255);
+    background-color: #e9e2dc;
+  }
+  

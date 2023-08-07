@@ -1,0 +1,73 @@
+.profile-view{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.profile-image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Keeps the aspect ratio and fills the container */
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 40px;
+}
+
+.profile-form {
+    color: white;
+    padding-left: 40px;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: larger;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.735);
+    padding: 10px;
+    max-width: 900px; /* Adjust the maximum width as needed */
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    margin-top: 30px;
+    padding-top: 30px;
+
+}
+
+.favorited-books{
+    font-family: monospace;
+    display: flex;
+    text-align: center;
+
+}
+
+.book-info-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: x-large;
+    margin-top: 50px;
+    color: rgb(33, 33, 33);
+    font-weight: 600;
+    padding-bottom: 40px;
+
+}
+
+.edit-btn{
+    margin: 10px;
+  margin-top: 10px;
+  font-family: monospace;
+    color: rgb(216, 200, 178);
+    border-color: rgb(216, 200, 178);
+    background-color:whitesmoke ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+  

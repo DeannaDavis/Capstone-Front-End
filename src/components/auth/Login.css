@@ -1,0 +1,150 @@
+
+.h1,
+h1 {
+  font-size: 2rem;
+  color: whitesmoke;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Form styles */
+fieldset {
+  min-width: 0;
+  padding: 1rem 0;
+  margin: 0;
+  border: 0;
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: large;
+}
+
+.form--login {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  color: whitesmoke;
+  font-family: monospace;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.form--login > fieldset > input[type="email"] {
+  width: 25em;
+  border-radius: 1rem;
+}
+
+.form--login > fieldset > input[type="password"] {
+    width: 25em;
+    border-radius: 1rem;
+  }
+
+.label--login {
+  width: 8rem;
+  display: inline-block;
+}
+
+.form-control {
+  display: block;
+  width: 94%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(139, 133, 133);
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  -webkit-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* ... Other CSS styles ... */
+
+.container--login {
+    text-align: center;
+    padding-top: 100px; /* Add padding to create space between the logo and form */
+  }
+  
+  .login-page {
+    background-color: #ffffff;
+  }
+
+  .form--login{
+    padding-top: 200px;
+  }
+
+  body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+  }
+  
+  .banner {
+    background-color: #ffffff; /* White background */
+    position: fixed; /* Fixed position to stay at the top of the viewport */
+    top: 0; /* Position the banner at the top */
+    left: 0; /* Position the banner at the left edge */
+    right: 0; /* Position the banner at the right edge */
+    display: flex; /* Use flexbox to align the logo and heading */
+    align-items: center; /* Vertically center the items */
+    padding: 15px; /* Add some padding around the content */
+  }
+  
+  .logo__img {
+        width: 200px; /* Set the width of your right logo */
+        height: 150px; /* Set the height of your right logo */
+       
+  }
+  
+  h1 {
+    font-size: 24px; /* Set the font size for the heading */
+    color:rgb(0, 0, 0); /* Set the text color for the heading */
+    font-weight:500;
+    /* Add any additional styles you want for the heading */
+  }
+
+  h2{
+    font-size: xx-large;
+    font-weight: 545;
+  }
+  
+  .button {
+    font-family: monospace;
+    color: rgb(216, 200, 178);
+    border-color: rgb(216, 200, 178);
+    background-color:whitesmoke ;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .logo_right {
+        width: 200px; /* Set the width of your right logo */
+        height: 150px; /* Set the height of your right logo */
+        position: absolute; /* Position the logo absolutely */
+        right: 20px; /* Position the logo on the right side, adjust the value as needed */
+  }
+ 
+  .register-button {
+    color: whitesmoke;
+  }
+
+
+.welcome-banner{
+    padding-left: 118px;
+    font-size: 24px; /* Set the font size for the heading */
+    color:rgb(125, 125, 125); /* Set the text color for the heading */
+    font-weight:600;
+}
+
+.email-input{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 5px;
+}
+
+
+

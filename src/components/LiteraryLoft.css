@@ -1,0 +1,333 @@
+body {
+    padding: 0 5px 5px 5px;
+  }
+  
+  .book-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  
+  .book-card {
+    flex: 0 0 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .favorite-icon {
+    position: absolute;
+    top: 5px; /* Adjust the top position to align the icon to the desired position */
+    left: 5px; /* Adjust the left position to align the icon to the desired position */
+    width: 20px; /* Set the size of the icon as desired */
+    height: 20px;
+    cursor: pointer;
+    margin-left: 565px;
+    margin-top: 25px;
+  }
+  
+  .book-name {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .book-img {
+    height: 20rem;
+    width: 15rem;
+    margin: 1rem;
+    box-shadow: 4px 3px 6px -1px grey;
+  
+  }
+  
+  #filter-bar {
+    background-color: lightgray;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-shadow: 1px 3px 4px grey;
+  } 
+  
+  #genre-select {
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    margin-left: 2rem;
+  }
+
+  .book-form-title {
+    color: white;
+    font-family: monospace;
+    font-weight: 600;
+    padding-top: 15px;
+
+  }
+
+  .book-form {
+    color: white;
+    padding-left: 40px;
+    width:80%;
+  }
+  
+  .book-club {
+    font-size: large;
+    font-style: italic;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.book-name{
+  font-size: x-large;
+    font-family: monospace;
+}
+
+.book-description{
+  display: flex;
+  text-align: center;
+  font-size: smaller;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.buttons {
+  margin: 10px;
+  margin-top: 30px;
+  font-family: monospace;
+    color: rgb(216, 200, 178);
+    border-color: rgb(216, 200, 178);
+    background-color:whitesmoke ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn{
+  margin: 10px;
+  margin-top: 30px;
+  font-family: monospace;
+    color: rgb(216, 200, 178);
+    border-color: rgb(216, 200, 178);
+    background-color:whitesmoke ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buy-header{
+  margin-top: 10px;
+  font-size: medium;
+  padding: 15px;
+  font-weight: 100;
+  background-color: rgba(255, 255, 255, 0.756);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: rgb(54, 54, 54);
+  display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.buy-button{
+  font-family: monospace;
+    color: rgb(216, 200, 178);
+    border-color: rgb(216, 200, 178);
+    background-color:whitesmoke ;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 29px;
+    margin-left: 5px;
+
+}
+
+.search-bar {
+  position: absolute;
+  top: 320px; /* Adjust the value as needed based on your nav bar's height */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+  font-family: monospace;
+}
+
+.main-header{
+  position: absolute;
+  top: 160px; /* Adjust the value as needed based on your nav bar's height */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  font-family: monospace;
+  font-size: xxx-large;
+  font-weight: 480;
+  color: rgb(20, 19, 19);
+}
+
+.under-main{
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  font-family: monospace;
+  font-size: medium;
+  font-weight: 480;
+  text-align: center;
+  color: rgb(20, 19, 19);
+}
+
+.button-container{
+  display:flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.author{
+  font-size: small;
+}
+
+.book-author{
+  font-size: small;
+}
+
+.fantasy-header{
+  position: absolute;
+  top: 160px; /* Adjust the value as needed based on your nav bar's height */
+  left: 455px;
+  transform: translateX(-50%);
+  padding: 10px;
+  font-family: monospace;
+  font-size: xxx-large;
+  font-weight: 480;
+  color: rgb(31, 31, 31);
+}
+
+.fantasy-def{
+  position: absolute;
+  top: 240px; /* Adjust the value as needed based on your nav bar's height */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  font-family: monospace;
+  font-size: large;
+  font-weight: 480;
+  color: rgb(31, 31, 31);
+}
+
+.romance-header{
+  position: absolute;
+  top: 160px; /* Adjust the value as needed based on your nav bar's height */
+  left: 445px;
+  transform: translateX(-50%);
+  padding: 10px;
+  font-family: monospace;
+  font-size: xxx-large;
+  font-weight: 480;
+  color: rgb(31, 31, 31);
+}
+
+.romance-def{
+  position: absolute;
+  top: 240px; /* Adjust the value as needed based on your nav bar's height */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  font-family: monospace;
+  font-size: large;
+  font-weight: 480;
+  color: rgb(31, 31, 31);
+}
+
+.scifi-header{
+  position: absolute;
+  top: 160px; /* Adjust the value as needed based on your nav bar's height */
+  left: 420px;
+  transform: translateX(-50%);
+  padding: 10px;
+  font-family: monospace;
+  font-size: xxx-large;
+  font-weight: 480;
+  color: rgb(31, 31, 31);
+}
+
+.scifi-def{
+  position: absolute;
+  top: 240px; /* Adjust the value as needed based on your nav bar's height */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  font-family: monospace;
+  font-size: large;
+  font-weight: 480;
+  color: rgb(31, 31, 31);
+}
+
+/* Existing styles... */
+
+.comments-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-family: monospace;
+  color: rgb(31, 31, 31);
+  background-color: rgba(255, 255, 255, 0.756);
+  padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 470px;
+    margin-left: 470px;
+}
+
+.comments-header {
+  font-size: x-large;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  color:rgb(135, 135, 135);
+}
+
+.comment-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  text-align: center;
+  color: rgb(135, 135, 135);
+}
+
+.comment-item {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button{
+  font-family: monospace;
+    color: rgb(216, 200, 178);
+    border-color: rgb(216, 200, 178);
+    background-color:whitesmoke ;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 660px;
+    margin-bottom: 80px;
+}
+
+.comment-box{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: rgb(216, 200, 178);
+  background-color:whitesmoke ;
+  margin-left: 625px;
+  text-align: center;
+}

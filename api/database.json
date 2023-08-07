@@ -1,0 +1,319 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "author": "J.K Rowling",
+      "name": "Harry Potter and the Sorcer's Stone",
+      "imageUrl": "https://m.media-amazon.com/images/I/81iqZ2HHD-L._AC_UY436_QL65_.jpg",
+      "genreId": 1,
+      "clubId": 1,
+      "description": "'Harry Potter and the Sorcerer's Stone' follows young Harry Potter as he discovers he's a wizard and enters the magical world of Hogwarts School of Witchcraft and Wizardry. With the help of his friends, Harry embarks on a thrilling adventure to protect the legendary Sorcerer's Stone from dark forces. J.K. Rowling's captivating storytelling introduces readers to a world of magic, friendship, and bravery in this beloved fantasy tale.",
+      "buy": "https://www.booksamillion.com/p/Harry-Potter-Sorcerers-Stone/J-K-Rowling/9780590353427?id=8908259425387",
+      "comments": [
+        {
+          "userId": 2,
+          "username": "Brad Davis",
+          "text": "THIS BOOK IS AMAZING!!!!"
+        },
+        {
+          "userId": 2,
+          "username": "Brad Davis",
+          "text": "WAIT\n"
+        },
+        {
+          "userId": 2,
+          "username": "Brad Davis",
+          "text": "losing my marbles"
+        },
+        {
+          "userId": 2,
+          "username": "Brad Davis",
+          "text": "there we go"
+        },
+        {
+          "userId": 1,
+          "username": "Deanna Davis",
+          "text": "hey there friend"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "author": "Veronica Roth",
+      "name": "Divergent",
+      "imageUrl": "https://m.media-amazon.com/images/I/81H1MhBbPbL._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 1,
+      "clubId": 1,
+      "description": "In Veronica Roth's 'Divergent' trilogy, the story revolves around a dystopian society divided into distinct factions based on human virtues. Tris Prior, a young girl who doesn't fit into any single faction, discovers she is Divergent, possessing qualities of multiple factions, which threatens the established order. As she unravels the truth behind her identity and challenges the authoritarian regime, Tris must navigate dangerous trials, uncover hidden secrets, and confront her inner demons, making 'Divergent' a thrilling adventure of identity, rebellion, and the pursuit of freedom.",
+      "buy": "https://www.booksamillion.com/p/Divergent/Veronica-Roth/9780062024022?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 4,
+      "author": "George R.R Martin",
+      "name": "Game of Thrones",
+      "imageUrl": "https://m.media-amazon.com/images/I/91Pqmk8FzAL._AC_UL800_FMwebp_QL65_.jpg",
+      "genreId": 1,
+      "clubId": 3,
+      "description": "'Game of Thrones' is a fantasy novel written by George R.R. Martin, serving as the first book in the 'A Song of Ice and Fire' series. The story is set in the fictional continents of Westeros and Essos and follows the power struggles and political intrigue among noble families vying for control of the Iron Throne. The novel introduces readers to a vast and complex cast of characters, including the Starks, Lannisters, and Targaryens, as they navigate treacherous alliances, betrayals, and the ever-present threat of supernatural forces beyond the Wall. 'Game of Thrones' is a gripping tale of ambition, loyalty, and the unpredictability of fate that has become a cultural phenomenon, leading to the highly acclaimed television adaptation of the same name.",
+      "buy": "https://www.booksamillion.com/p/Game-Thrones/George-R-Martin/9780553103540?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 5,
+      "author": "J.R.R Tolkien",
+      "name": "The Hobbit",
+      "imageUrl": "https://m.media-amazon.com/images/I/71UZKQ3-wCL._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 1,
+      "clubId": 1,
+      "description": "'The Hobbit' by J.R.R. Tolkien takes readers on an extraordinary journey with Bilbo Baggins, a hobbit who is reluctantly thrust into an epic quest by the wizard Gandalf. Joining a group of dwarves led by Thorin Oakenshield, Bilbo embarks on an adventure to reclaim their homeland from the fearsome dragon, Smaug. Along the way, Bilbo faces perilous challenges, encounters magical creatures, and discovers courage and inner strength he never knew he had, making 'The Hobbit' an enchanting tale of bravery, friendship, and self-discovery.",
+      "buy": "https://www.booksamillion.com/p/Hobbit/J-R-Tolkien/9780345339683?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 6,
+      "author": "Patrick Rothfuss",
+      "name": "The Name of the Wind",
+      "imageUrl": "https://m.media-amazon.com/images/I/A1hqBSoxzhL._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 1,
+      "clubId": 3,
+      "description": "'The Name of the Wind' is a fantasy novel written by Patrick Rothfuss. The story is framed as a memoir, narrated by Kvothe, a gifted musician and a renowned figure known as 'The Kingkiller.' He recounts his life's adventures, from growing up as a talented child in a troupe of traveling performers to attending the University, where he learns the art of magic and seeks knowledge about the mysterious and powerful Chandrian. Throughout the novel, Kvothe's exceptional skills, determination, and curiosity lead him through a world of magic, danger, and hidden truths. 'The Name of the Wind' is a masterful tale of storytelling, with beautifully crafted prose, intricate world-building, and a captivating narrative that leaves readers eagerly anticipating the rest of Kvothe's journey.",
+      "buy": "https://www.booksamillion.com/p/Name-Wind/Patrick-Rothfuss/9780756404741?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 7,
+      "author": "Brandon Sanderson",
+      "name": "Mistborn: The Final Empire",
+      "imageUrl": "https://m.media-amazon.com/images/I/917NNRCArfL._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 1,
+      "clubId": 2,
+      "description": "'Mistborn: The Final Empire' is the first book in the Mistborn trilogy written by Brandon Sanderson. Set in a world where the immortal Lord Ruler rules with an iron fist, the story follows Vin, a street-smart young girl with unique magical abilities. When she joins a group of rebels led by the enigmatic Kelsier, they plan an audacious heist to overthrow the oppressive regime. Filled with a captivating magic system, political intrigue, and memorable characters, 'Mistborn: The Final Empire' is an enthralling fantasy novel that delves into themes of revolution, sacrifice, and the power of hope.",
+      "buy": "https://www.booksamillion.com/p/Mistborn/Brandon-Sanderson/9780765311788?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 8,
+      "author": "Brandon Sanderson",
+      "name": "The Way of Kings",
+      "imageUrl": "https://m.media-amazon.com/images/I/81rkDeOBcvL._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 1,
+      "clubId": 3,
+      "description": "'The Way of Kings' is the first book in 'The Stormlight Archive' series, penned by Brandon Sanderson. Set in the richly imagined world of Roshar, the story follows several intriguing characters, including Kaladin, a talented but broken soldier, and Shallan, a determined scholar. As they navigate a world torn by wars, political machinations, and supernatural storms, each character embarks on a personal journey of growth and discovery. 'The Way of Kings' captivates readers with its intricate plot, well-developed characters, and profound exploration of themes such as leadership, honor, and the pursuit of justice.",
+      "buy": "https://www.booksamillion.com/p/Way-Kings/Brandon-Sanderson/9780765365279?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 9,
+      "author": "Samantha Shannon",
+      "name": "The Priory of the Orange Tree",
+      "imageUrl": "https://m.media-amazon.com/images/I/91e-evSn6bL._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 1,
+      "clubId": 1,
+      "description": "'The Priory of the Orange Tree' is an epic fantasy novel written by Samantha Shannon. Set in a world threatened by an ancient dragon, the story weaves together the destinies of various compelling characters. Queen Sabran of Inys, mage Ead Duryan, dragon-rider Tané, and dragon-rider turned dragon-rider-slayer Niclays Roos are among the key players in this enthralling tale of political intrigue, forbidden magic, and the battle against a malevolent dragon threatening the realm. With richly developed world-building, diverse characters, and themes of friendship, courage, and sacrifice, 'The Priory of the Orange Tree' is a masterful fantasy adventure that captivates readers until the very end.",
+      "buy": "https://www.booksamillion.com/p/Priory-Orange-Tree/Samantha-Shannon/9781635570304?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 11,
+      "author": "Jane Austen",
+      "name": "Pride and Prejudice",
+      "imageUrl": "https://m.media-amazon.com/images/I/71leQuCmSpL._AC_UL800_FMwebp_QL65_.jpg",
+      "genreId": 2,
+      "clubId": 2,
+      "description": "''Pride and Prejudice' is a classic romantic novel written by Jane Austen. Set in the English countryside during the early 19th century, the story revolves around the lively and intelligent Elizabeth Bennet and the wealthy, proud Mr. Fitzwilliam Darcy. Initially, Elizabeth forms a negative opinion of Mr. Darcy due to his perceived arrogance, while he looks down upon her family's social status. As their paths continue to cross and misunderstandings arise, both characters must confront their own prejudices and societal expectations. 'Pride and Prejudice' is a timeless tale of love, manners, and the complexities of human relationships, cherished for its wit, insightful social commentary, and enduring romance.",
+      "buy": "https://www.booksamillion.com/p/Pride-Prejudice/Jane-Austen/9780593622452?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 12,
+      "author": "Sarah J. Maas",
+      "name": "A Court of Thorns and Roses",
+      "imageUrl": "https://m.media-amazon.com/images/I/8180Uhc4BuL._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 2,
+      "clubId": 2,
+      "description": "'A Court of Thorns and Roses' is a captivating fantasy novel written by Sarah J. Maas, marking the first book in the 'A Court of Thorns and Roses' series. The story centers around Feyre Archeron, a skilled huntress, who accidentally kills a faerie wolf in the woods. As a consequence, she is taken captive to the magical land of Prythian by Tamlin, a powerful faerie lord. In Prythian, Feyre discovers a world filled with beauty, danger, and dark secrets. As she navigates political intrigue and magical trials, she begins to unravel the mysteries surrounding the faerie realm and her own destiny. Filled with romance, adventure, and intricate world-building, 'A Court of Thorns and Roses' is an enthralling tale of love, sacrifice, and self-discovery.",
+      "buy": "https://www.booksamillion.com/p/Court-Thorns-Roses/Sarah-J-Maas/9781635575569?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 13,
+      "author": "Nicholas Sparks",
+      "name": "The Notebook",
+      "imageUrl": "https://m.media-amazon.com/images/I/91LUrQ+p5RL._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 2,
+      "clubId": 2,
+      "description": "'The Notebook' is a heartwarming and poignant romance novel written by Nicholas Sparks. The story revolves around the enduring love between Noah Calhoun and Allie Nelson, who meet and fall in love one summer. Despite their differences in social class and the opposition from Allie's parents, they share a deep connection. However, life's challenges separate them, and they move on with their lives. Years later, fate brings them back together, rekindling their love and memories from the past. 'The Notebook' is a tender and timeless tale of love, devotion, and the power of memories that captures the hearts of readers worldwide.",
+      "buy": "https://www.booksamillion.com/p/Notebook/Nicholas-Sparks/9780446676090?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 14,
+      "author": "Jojo Moyes",
+      "name": "Me Before You",
+      "imageUrl": "https://covers3.booksamillion.com/covers/bam/0/14/312/454/0143124544_b.jpg",
+      "genreId": 2,
+      "clubId": 2,
+      "description": "'Me Before You' is a moving and heartfelt novel by Jojo Moyes. The story follows the life-changing relationship between Louisa Clark, a quirky and compassionate young woman, and Will Traynor, a wealthy and adventurous man who becomes paralyzed after an accident. As Louisa becomes Will's caregiver, their lives intertwine in unexpected ways, leading to a poignant and life-affirming journey of love, hope, and the exploration of what it truly means to live. 'Me Before You' is a touching and thought-provoking exploration of human connections and the complexities of making difficult choices in the face of adversity.",
+      "buy": "https://www.booksamillion.com/p/Before/Jojo-Moyes/9780143124542?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 15,
+      "author": "Colleen Hoover",
+      "name": "It Ends with Us",
+      "imageUrl": "https://m.media-amazon.com/images/I/81s0B6NYXML._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 2,
+      "clubId": 2,
+      "description": "'It Ends with Us' is a powerful and emotionally charged novel written by Colleen Hoover. The story revolves around Lily Bloom, a young woman who meets Ryle Kincaid, a confident neurosurgeon, and falls deeply in love with him. However, as their relationship progresses, Lily is faced with unexpected challenges and painful secrets from Ryle's past. When a former flame, Atlas Corrigan, re-enters her life, Lily is forced to confront her own history and make difficult decisions that could shape her future.This heartrending and thought-provoking novel delves into complex themes of love, resilience, and self-discovery. 'It Ends with Us' explores the intricacies of relationships and tackles sensitive issues with a raw and honest approach, leaving readers with a profound understanding of the strength it takes to break free from the cycle of abuse and embrace the power of self-love.",
+      "buy": "https://www.booksamillion.com/p/Ends-Us/Colleen-Hoover/9781501110368?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 16,
+      "author": "George Orwell",
+      "name": "1984",
+      "imageUrl": "https://m.media-amazon.com/images/I/71kxa1-0mfL._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 3,
+      "clubId": 4,
+      "description": "'1984' is a dystopian novel written by George Orwell. Set in a totalitarian society ruled by the oppressive Party led by Big Brother, the story follows Winston Smith, an ordinary citizen who secretly rebels against the party's rigid control and surveillance. As Winston embarks on a forbidden love affair and joins an underground resistance movement, he faces the consequences of challenging the Party's reality and the consequences of individuality. '1984' is a chilling and prophetic masterpiece that explores themes of totalitarianism, government surveillance, the manipulation of truth, and the importance of individual freedom.",
+      "buy": "https://www.booksamillion.com/p/George-Orwell/9780451524935?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 17,
+      "author": "Frank Herbert",
+      "name": "Dune",
+      "imageUrl": "https://m.media-amazon.com/images/I/91MkOMqYoFL._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 3,
+      "clubId": 4,
+      "description": "'Dune' is a classic science fiction novel written by Frank Herbert. Set in a distant future on the desert planet Arrakis, the story follows the young nobleman Paul Atreides and his family as they take control of the valuable spice mining operations on the planet. As Paul navigates the complex politics and intrigues of Arrakis, he undergoes a transformative journey and discovers that he might be the long-awaited messianic figure known as the Kwisatz Haderach. 'Dune' is an epic tale of political machinations, ecological themes, and the hero's journey, and it has left a significant impact on the science fiction genre since its publication.",
+      "buy": "https://www.booksamillion.com/p/Dune/Frank-Herbert/9780441172719?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 18,
+      "author": "Douglas Adams",
+      "name": "The Hitchhiker's Guide to the Galaxy",
+      "imageUrl": "https://m.media-amazon.com/images/I/81j4LPfjVWL._AC_UY436_FMwebp_QL65_.jpg",
+      "genreId": 3,
+      "clubId": 4,
+      "description": "'The Hitchhiker's Guide to the Galaxy' is a science fiction comedy novel written by Douglas Adams. The story follows Arthur Dent, an ordinary Earthman who is unexpectedly whisked away from Earth just before its destruction by his friend Ford Prefect, an alien researcher for 'The Hitchhiker's Guide to the Galaxy.' Together, they embark on a hilarious and absurd journey through space, encountering a plethora of peculiar characters and mind-boggling situations. Filled with witty humor, clever satire, and philosophical musings, 'The Hitchhiker's Guide to the Galaxy' is a delightful and imaginative adventure that humorously explores life, the universe, and everything in between.",
+      "buy": "https://www.booksamillion.com/p/Hitchhikers-Guide-Galaxy/Douglas-Adams/9780345391803?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 19,
+      "author": "Orson Scott Card",
+      "name": "Ender's Game",
+      "imageUrl": "https://covers1.booksamillion.com/covers/bam/0/76/537/848/0765378485_b.jpg",
+      "genreId": 3,
+      "clubId": 4,
+      "decription": "In order to develop a secure defense against a hostile alien race's next attack, government agencies breed child geniuses and train them as soldiers. A brilliant young boy, Andrew 'Ender' Wiggin lives with his kind but distant parents, his sadistic brother Peter, and the person he loves more than anyone else, his sister Valentine. Peter and Valentine were candidates for the soldier-training program but didn't make the cut--young Ender is the Wiggin drafted to the orbiting Battle School for rigorous military training.",
+      "buy": "https://www.booksamillion.com/p/Enders-Game/Orson-Scott-Card/9780765378484?id=8908259425387",
+      "comments": []
+    },
+    {
+      "id": 20,
+      "author": "William Gibson",
+      "name": "Neuromancer",
+      "imageUrl": "https://covers3.booksamillion.com/covers/bam/0/44/100/746/0441007465_b.jpg",
+      "genreId": 3,
+      "clubId": 4,
+      "description": "Neuromancer is a 1984 science fiction novel by American-Canadian writer William Gibson. Considered one of the earliest and best-known works in the cyberpunk genre, it is the only novel to win the Nebula Award, the Philip K. Dick Award, and the Hugo Award.",
+      "buy": "https://www.booksamillion.com/p/Neuromancer/William-Gibson/9780441007462?id=8908259425387",
+      "comments": []
+    },
+    {
+      "name": "The Fault In Our Stars",
+      "author": "John Green",
+      "imageUrl": "https://m.media-amazon.com/images/I/51ED6WxFy8L._SX335_BO1,204,203,200_.jpg",
+      "genreId": 2,
+      "clubId": 2,
+      "description": "Hazel Grace Lancaster (Shailene Woodley), a 16-year-old cancer patient, meets and falls in love with Gus Waters (Ansel Elgort), a similarly afflicted teen from her cancer support group. Hazel feels that Gus really understands her. They both share the same acerbic wit and a love of books, especially Grace's touchstone, \"An Imperial Affliction\" by Peter Van Houten. When Gus scores an invitation to meet the reclusive author, he and Hazel embark on the adventure of their brief lives.",
+      "id": 21,
+      "buy": "https://www.booksamillion.com/p/Fault-Our-Stars/John-Green/9780525478812?id=8908259425387",
+      "comments": []
+    },
+    {
+      "name": "Blood of Elves",
+      "author": "Andrzej Sapkowski",
+      "imageUrl": "https://m.media-amazon.com/images/I/51xAJZfjFwL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "genreId": "1",
+      "clubId": "1",
+      "description": "Blood of Elves is the first novel in The Witcher series written by the Polish fantasy writer Andrzej Sapkowski, first published in Poland in 1994. It is a sequel to the Witcher short stories collected in the books The Last Wish and Sword of Destiny and is followed by Time of Contempt.",
+      "id": 22,
+      "buy": "https://www.booksamillion.com/p/Blood-Elves-No/Andrzej-Sapkowski/9780316029193?id=8908259425387",
+      "comments": []
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "name": "Fantasy"
+    },
+    {
+      "id": 2,
+      "name": "Romance"
+    },
+    {
+      "id": 3,
+      "name": "Scifi"
+    }
+  ],
+  "clubs": [
+    {
+      "id": 1,
+      "genreId": 1,
+      "name": "Marauder's Map Book Club",
+      "imageURL": "https://wallpapers.com/images/hd/aesthetic-harry-potter-pictures-1dmkou3s5iwlhnis.jpg",
+      "description": "Step into the magical realm of literature and exploration with Marauder's Map Book Club. Join us as we embark on thrilling adventures through the pages of enchanting books. Just like the Marauder's Map from Harry Potter, we'll navigate uncharted territories, discussing tales of fantasy, mystery, and wonder. Let your imagination soar as we journey together through captivating narratives and fantastical worlds."
+    },
+    {
+      "id": 2,
+      "genreId": 2,
+      "name": "Love Beyond Pages Book Club",
+      "imageURL": "https://i.pinimg.com/474x/96/5f/08/965f08900d85371257b8b2d82e6c4083.jpg",
+      "description": "In Love Beyond Pages Book Club, we delve into the deepest emotions that books evoke - love, compassion, and human connections. Our members share a passion for heartwarming stories that touch the soul. From heartrending romances to soul-stirring dramas, we believe that words have the power to bridge gaps and connect hearts. Join us as we celebrate the power of love through the written word, and together, we'll embark on a journey filled with empathy and understanding."
+    },
+    {
+      "id": 3,
+      "genreId": 1,
+      "name": "Wandering Travelers",
+      "imageURL": "https://i.pinimg.com/474x/58/56/c1/5856c1d3a73adffdbe11e5f9612435f8.jpg",
+      "description": "Pack your literary bags and get ready to explore the world through the lens of books with Wandering Travelers. Our club is a haven for globetrotting bibliophiles who seek adventure between the pages. From thrilling travelogues to tales of exotic destinations, we'll traverse the globe, discovering diverse cultures and landscapes. Whether you're an armchair traveler or an explorer at heart, come join us as we share stories that ignite the wanderlust in all of us."
+    },
+    {
+      "id": 4,
+      "genreId": 3,
+      "name": "Sci-Fi Universe Book Club",
+      "imageURL": "https://i.pinimg.com/474x/f6/e0/5b/f6e05bcdc1f664dc183851b5226ca4f8.jpg",
+      "description": "Prepare to venture into the boundless reaches of the imagination with the Sci-Fi Universe Book Club. Embrace the wonders of science fiction as we journey through mind-bending galaxies, futuristic technologies, and thought-provoking ideas. From dystopian worlds to interstellar adventures, our club explores the outer limits of human creativity. If you're fascinated by the unknown and intrigued by the possibilities of tomorrow, join us on a cosmic quest through the fascinating realms of science fiction."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "imageURL": "https://i.pinimg.com/474x/89/0b/23/890b2370b7a35ddfb845a518e3f1cbc6.jpg",
+      "email": "ddavissss04@gmail.com",
+      "name": "Deanna Davis",
+      "password": "deenalynn1!",
+      "isStaff": true,
+      "clubOwned": 2,
+      "description": "I love books and traveling. I also want a golden doodle and a ragdoll cat in my future home in the mountains or on the lake!",
+      "clubs": [],
+      "personalURL": ""
+    },
+    {
+      "id": 2,
+      "imageURL": "https://i.pinimg.com/474x/53/3b/ed/533bed6b0f3f8f1a4f7058376518d592.jpg",
+      "email": "bradthedad@hotmail.com",
+      "name": "Brad Davis",
+      "password": "DJ.B-RAD",
+      "isStaff": false,
+      "description": "RIP boiling water, you will be mist.",
+      "clubs": [],
+      "personalURL": "https://www.linkedin.com/in/braddavistech/"
+    }
+  ]
+}
