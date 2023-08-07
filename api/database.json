@@ -11,12 +11,6 @@
       "buy": "https://www.booksamillion.com/p/Harry-Potter-Sorcerers-Stone/J-K-Rowling/9780590353427?id=8908259425387",
       "comments": [
         {
-          "commentId": 2,
-          "userId": 2,
-          "username": "Brad Davis",
-          "text": "let not delte everything"
-        },
-        {
           "commentId": 3,
           "userId": 2,
           "username": "Brad Davis",
@@ -26,7 +20,7 @@
           "commentId": 2,
           "userId": 1,
           "username": "Deanna Davis",
-          "text": "IT WORKS OMG"
+          "text": "going to go cry now"
         }
       ]
     },
@@ -39,7 +33,15 @@
       "clubId": 1,
       "description": "In Veronica Roth's 'Divergent' trilogy, the story revolves around a dystopian society divided into distinct factions based on human virtues. Tris Prior, a young girl who doesn't fit into any single faction, discovers she is Divergent, possessing qualities of multiple factions, which threatens the established order. As she unravels the truth behind her identity and challenges the authoritarian regime, Tris must navigate dangerous trials, uncover hidden secrets, and confront her inner demons, making 'Divergent' a thrilling adventure of identity, rebellion, and the pursuit of freedom.",
       "buy": "https://www.booksamillion.com/p/Divergent/Veronica-Roth/9780062024022?id=8908259425387",
-      "comments": []
+      "comments": [
+        {
+          "commentId": 1,
+          "userId": 1,
+          "username": "Deanna Davis",
+          "text": "hopefully",
+          "rating": 1
+        }
+      ]
     },
     {
       "id": 4,

@@ -11,6 +11,9 @@ export const BookDetails = () => {
     const navigate = useNavigate();
     const [loggedInUserId, setLoggedInUserId] = useState(null);
     const [commentIdCounter, setCommentIdCounter] = useState(1);
+    const [newCommentRating, setNewCommentRating] = useState(1);
+
+
 
 
     useEffect(() => {
@@ -58,7 +61,7 @@ export const BookDetails = () => {
         // Filter out the comment with the specified commentId
         const updatedComments = comments.filter(comment => comment.commentId !== commentId);
         setComments(updatedComments);
-
+    
         // Update the book's comments in the database
         fetch(`http://localhost:8088/books/${book.id}`, {
             method: "PATCH",
@@ -80,50 +83,54 @@ export const BookDetails = () => {
             console.error("Error deleting comment:", error);
         });
     };
+    
 
     const handleSubmitComment = (e) => {
         e.preventDefault();
-    
-        // Fetch user's name using the loggedInUserId
-        fetch(`http://localhost:8088/users/${loggedInUserId}`)
-            .then((res) => res.json())
-            .then((userData) => {
-                const commentData = {
-                    commentId: commentIdCounter,
-                    userId: loggedInUserId,
-                    username: userData.name, // Add the username to the comment data
-                    text: newComment,
-                };
 
-                setCommentIdCounter(commentIdCounter + 1);
-    
-                // Add the comment to the local state
-                setComments((prevComments) => [...prevComments, commentData]);
-                setNewComment("");
-    
-                // Update the book's comments in the database
-                return fetch(`http://localhost:8088/books/${book.id}`, {
-                    method: "PATCH",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({
-                        comments: [...book.comments, commentData],
-                    }),
-                });
-            })
-            .then((res) => res.json())
-            .then((updatedBookData) => {
-                // Make sure to include the club data in the updatedBookData
-                setBook({
-                    ...updatedBookData,
-                    club: book.club, // Preserve the club data
-                });
-            })
-            .catch((error) => {
-                console.error("Error submitting comment:", error);
+    fetch(`http://localhost:8088/users/${loggedInUserId}`)
+        .then((res) => res.json())
+        .then((userData) => {
+            const commentData = {
+                commentId: commentIdCounter,
+                userId: loggedInUserId,
+                username: userData.name,
+                text: newComment,
+                rating: newCommentRating, // Add the rating to the comment data
+            };
+
+            setCommentIdCounter(commentIdCounter + 1);
+
+            // Add the comment to the local state
+            setComments((prevComments) => [...prevComments, commentData]);
+            setNewComment("");
+            setNewCommentRating(0); // Reset the rating to 0
+
+            // Update the book's comments in the database
+            return fetch(`http://localhost:8088/books/${book.id}`, {
+                method: "PATCH",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    comments: [...book.comments, commentData],
+                }),
             });
-    }
+        })
+        .then((res) => res.json())
+        .then((updatedBookData) => {
+            setBook({
+                ...updatedBookData,
+                club: book.club,
+                comments: updatedBookData.comments,
+            });
+        })
+        .catch((error) => {
+            console.error("Error submitting comment:", error);
+        });
+};
+
+    
 
 
     if (!book) {
@@ -187,6 +194,9 @@ export const BookDetails = () => {
                         {comments.map((comment) => (
                             <li key={comment.commentId} className="comment-item">
                                 <strong>{comment.username}:</strong> {comment.text}
+                                <div className="comment-rating">
+                                    Rating: {comment.rating} stars
+                                </div>
                                 {loggedInUserId === comment.userId && (
                                     <img
                                         src="/litter.png"
@@ -204,13 +214,34 @@ export const BookDetails = () => {
 
             {/* Comment submission form */}
             <form onSubmit={handleSubmitComment}>
-                <textarea className="comment-box"
-                    placeholder="Leave a comment..."
-                    value={newComment}
-                    onChange={(e) => setNewComment(e.target.value)}
-                />
+                <div className="comment-box">
+                    <div className="comment-rating">
+                        <label>Rating: </label>
+                        {[1, 2, 3, 4, 5].map((rating) => (
+                            <label key={rating}>
+                                <input
+                                    type="radio"
+                                    name="rating"
+                                    value={rating}
+                                    checked={newCommentRating === rating}
+                                    onChange={() =>{
+                                        console.log("Selected rating:", rating);
+                                        setNewCommentRating(rating);
+                                    }}
+                                />
+                                {rating} stars
+                            </label>
+                        ))}
+                    </div>
+                    <textarea
+                        placeholder="Leave a comment..."
+                        value={newComment}
+                        onChange={(e) => setNewComment(e.target.value)}
+                    />
+                </div>
                 <button className="submit-button">Submit Comment</button>
             </form>
+
         </>
     );
 };
